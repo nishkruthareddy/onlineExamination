@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Examination System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Online Examination System</h2>
+
+    <div id="login">
+        <input id="student" placeholder="Enter student name">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="exam" style="display:none">
+        <h3 id="welcome"></h3>
+        <p>1. Which language is used for web pages?</p>
+        <input type="radio" name="q1" value="HTML"> HTML<br>
+        <input type="radio" name="q1" value="Python"> Python<br>
+        <input type="radio" name="q1" value="Java"> Java<br>
+        <button onclick="submitExam()">Submit Exam</button>
+    </div>
+
+    <h3 id="result"></h3>
+    <script src="script.js"></script>
+</body>
+</html>
